@@ -1,15 +1,18 @@
+# auth-pop3-ssl
+
+This is a simple PHP script that will attempt to authorize via pop3 to check for credentials. This is forked form the below sources and modified to check for TLS / SSL connections. 
+
 Usage: auth_pop3_ssl('username', 'password', 'pop3.example.com')
 
 If the host is using SSL, prepend $popserver with "ssl://"
 
-Original code from: 
+This script uses several external scripts and resources:
+* Original code from: 
 http://www.php.happycodings.com/E-Mail/code18.html
-
-Modified by Lord Matt: 
+* Modified by Lord Matt: 
 http://lordmatt.co.uk/item/1162/
-        
-Updates and fixes by Andrew Peng: 
-http://andrewpeng.net/computing/php-scripting/pop3-authentication
+
+***
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
